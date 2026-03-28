@@ -511,8 +511,8 @@ function Footer() {
           <div>
             <h5 style={{ fontSize: 12, fontWeight: 700, color: '#94a3b8', marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.1em' }}>Legal</h5>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <a href="#" style={{ fontSize: 13, color: '#64748b', textDecoration: 'none' }}>Privacidad</a>
-              <a href="#" style={{ fontSize: 13, color: '#64748b', textDecoration: 'none' }}>Términos</a>
+              <a href="/privacidad" style={{ fontSize: 13, color: '#64748b', textDecoration: 'none' }}>Privacidad</a>
+              <a href="/terminos" style={{ fontSize: 13, color: '#64748b', textDecoration: 'none' }}>Términos</a>
             </div>
           </div>
         </div>
