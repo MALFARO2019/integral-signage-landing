@@ -29,11 +29,11 @@ interface Plan {
   lemon_variant_id: string | null;
 }
 
-/* ─── Fetch plans with ISR (revalidate every 5 min) ─── */
+/* ─── Fetch plans (no-store; force-dynamic above) ─── */
 async function fetchPlans(): Promise<Plan[]> {
   try {
     const res = await fetch(`${API_URL}/billing/plans`, {
-      next: { revalidate: 300 },
+      cache: 'no-store',
       signal: AbortSignal.timeout(15000),
     });
     if (!res.ok) {
