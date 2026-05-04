@@ -73,14 +73,14 @@ function Navbar() {
   return (
     <nav className="glass" style={{
       position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100,
-      padding: '18px 40px',
+      padding: '14px 40px',
       display: 'flex', justifyContent: 'space-between', alignItems: 'center',
     }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img
-          src="/integral-logo.png"
-          alt="Integral Signage Logo"
-          style={{ height: 110, width: 'auto', objectFit: 'contain', marginLeft: -8 }}
+          src="/kastio-logo.svg"
+          alt="Kastio"
+          style={{ height: 56, width: 'auto', objectFit: 'contain' }}
         />
       </div>
 
@@ -486,7 +486,7 @@ function Footer() {
     <footer style={{ padding: '48px 40px 32px', borderTop: '1px solid rgba(255,255,255,0.06)', maxWidth: 1200, margin: '0 auto' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 40, marginBottom: 32 }}>
         <div>
-          <img src="/integral-logo.png" alt="Integral Signage Logo" style={{ height: 56, width: 'auto', objectFit: 'contain', marginLeft: -10, marginBottom: 12 }} />
+          <img src="/kastio-logo.svg" alt="Kastio" style={{ height: 44, width: 'auto', objectFit: 'contain', marginBottom: 12 }} />
           <p style={{ fontSize: 13, color: '#64748b', maxWidth: 300, lineHeight: 1.6 }}>
             Plataforma integral de Digital Signage & Audio para empresas modernas.
           </p>

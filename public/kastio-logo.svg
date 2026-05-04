@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 80" fill="none">
+  <defs>
+    <linearGradient id="kg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="55%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8 12)">
+    <path d="M 0 0 L 10 0 L 10 24 L 36 0 L 50 0 L 22 28 L 50 56 L 36 56 L 10 32 L 10 56 L 0 56 Z" fill="url(#kg)"/>
+  </g>
+  <text x="76" y="58" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" letter-spacing="-2.5" fill="#ffffff">Kastio</text>
+</svg>
