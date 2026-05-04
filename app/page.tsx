@@ -6,6 +6,10 @@
 
 import ContactForm from './components/ContactForm';
 
+// Force dynamic rendering to always fetch fresh plans from API.
+// Once API is stable we can switch back to ISR (export const revalidate = 300).
+export const dynamic = 'force-dynamic';
+
 const APP_URL  = process.env.NEXT_PUBLIC_APP_URL  || 'https://app.integralsignage.io';
 const API_URL  = process.env.NEXT_PUBLIC_API_URL  || 'https://api.integralsignage.io/api';
 
