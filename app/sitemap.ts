@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 
-const SITE_URL = 'https://integralsignage.io';
+const SITE_URL = 'https://kastio.io';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

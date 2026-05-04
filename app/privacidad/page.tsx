@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidad — Integral Signage',
-  description: 'Política de privacidad de Integral Signage. Cómo recopilamos, usamos y protegemos tu información.',
+  title: 'Política de Privacidad — Kastio',
+  description: 'Política de privacidad de Kastio. Cómo recopilamos, usamos y protegemos tu información.',
   robots: { index: true, follow: true },
 };
 
-const SITE_URL = 'https://integralsignage.io';
-const CONTACT_EMAIL = 'ventas@integralsignage.io';
+const SITE_URL = 'https://kastio.io';
+const CONTACT_EMAIL = 'ventas@kastio.io';
 const LAST_UPDATED = '28 de marzo de 2026';
 
 export default function PrivacidadPage() {
@@ -22,7 +22,7 @@ export default function PrivacidadPage() {
       {/* Nav */}
       <nav style={{ padding: '16px 40px', borderBottom: '1px solid rgba(99,102,241,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-          <img src="/integral-logo.png" alt="Integral Signage" style={{ height: 52, width: 'auto' }} />
+          <img src="/kastio-logo.svg" alt="Kastio" style={{ height: 44, width: 'auto' }} />
         </a>
         <a href="/" style={{ fontSize: 14, color: '#94a3b8', textDecoration: 'none' }}>← Volver al inicio</a>
       </nav>
@@ -39,7 +39,7 @@ export default function PrivacidadPage() {
         <div style={section}>
           <h2 style={h2}>1. Quiénes somos</h2>
           <p style={p}>
-            Integral Signage es una plataforma de señalización digital y audio ambiental operada por Integral Signage S.A.
+            Kastio es una plataforma de señalización digital y audio ambiental.
             Podés contactarnos en <a href={`mailto:${CONTACT_EMAIL}`} style={{ color: '#6366f1' }}>{CONTACT_EMAIL}</a>.
           </p>
         </div>
@@ -126,7 +126,7 @@ export default function PrivacidadPage() {
       {/* Footer */}
       <footer style={{ borderTop: '1px solid rgba(99,102,241,0.12)', padding: '24px 40px', textAlign: 'center' }}>
         <p style={{ fontSize: 13, color: '#475569' }}>
-          © {new Date().getFullYear()} Integral Signage.{' '}
+          © {new Date().getFullYear()} Kastio.{' '}
           <a href="/privacidad" style={{ color: '#6366f1', textDecoration: 'none' }}>Privacidad</a>{' · '}
           <a href="/terminos" style={{ color: '#6366f1', textDecoration: 'none' }}>Términos</a>
         </p>

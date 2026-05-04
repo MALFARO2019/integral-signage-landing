@@ -101,7 +101,7 @@ export default function ContactForm({ apiUrl }: ContactFormProps) {
 
       {status === 'error' && (
         <div style={{ background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.2)', borderRadius: 8, padding: '10px 14px', fontSize: 13, color: '#ef4444', marginBottom: 16 }}>
-          Hubo un error al enviar. Por favor intenta nuevamente o escríbenos a ventas@integralsignage.io
+          Hubo un error al enviar. Por favor intenta nuevamente o escríbenos a ventas@kastio.io
         </div>
       )}
 
@@ -116,7 +116,7 @@ export default function ContactForm({ apiUrl }: ContactFormProps) {
 
       <p style={{ fontSize: 12, color: '#475569', textAlign: 'center', marginTop: 12 }}>
         O escríbenos directamente a{' '}
-        <a href="mailto:ventas@integralsignage.io" style={{ color: '#818cf8' }}>ventas@integralsignage.io</a>
+        <a href="mailto:ventas@kastio.io" style={{ color: '#818cf8' }}>ventas@kastio.io</a>
       </p>
     </form>
   );

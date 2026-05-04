@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════
-   INTEGRAL SIGNAGE — LANDING PAGE
-   integralsignage.io
+   KASTIO — LANDING PAGE
+   kastio.io
    Server Component — ISR (plans fetched from API)
    ═══════════════════════════════════════════════════ */
 
@@ -10,8 +10,8 @@ import ContactForm from './components/ContactForm';
 // Once API is stable we can switch back to ISR (export const revalidate = 300).
 export const dynamic = 'force-dynamic';
 
-const APP_URL  = process.env.NEXT_PUBLIC_APP_URL  || 'https://app.integralsignage.io';
-const API_URL  = process.env.NEXT_PUBLIC_API_URL  || 'https://api.integralsignage.io/api';
+const APP_URL  = process.env.NEXT_PUBLIC_APP_URL  || 'https://app.kastio.io';
+const API_URL  = process.env.NEXT_PUBLIC_API_URL  || 'https://api.kastio.io/api';
 
 /* ─── Types ─── */
 interface Plan {
@@ -194,7 +194,7 @@ function Hero() {
             background: 'rgba(255,255,255,0.05)', borderRadius: 6,
             padding: '4px 12px', fontSize: 11, color: '#475569', textAlign: 'center',
           }}>
-            admin.integralsignage.io
+            app.kastio.io
           </div>
         </div>
         {/* Stats row */}
@@ -451,7 +451,7 @@ function Testimonial() {
       <div className="glass" style={{ padding: '48px 40px', borderRadius: 24 }}>
         <div style={{ fontSize: 48, marginBottom: 20 }}>🏪</div>
         <blockquote style={{ fontSize: 'clamp(18px, 2.5vw, 24px)', fontWeight: 500, lineHeight: 1.6, fontStyle: 'italic', marginBottom: 24, color: '#cbd5e1' }}>
-          &ldquo;Integral Signage nos permitió centralizar la gestión de pantallas y audio en todas nuestras
+          &ldquo;Kastio nos permitió centralizar la gestión de pantallas y audio en todas nuestras
           sucursales. Antes usábamos USBs y ahora todo se actualiza en tiempo real desde el navegador.&rdquo;
         </blockquote>
         <div>
@@ -497,7 +497,7 @@ function Footer() {
         <div>
           <img src="/kastio-logo.svg" alt="Kastio" style={{ height: 44, width: 'auto', objectFit: 'contain', marginBottom: 12 }} />
           <p style={{ fontSize: 13, color: '#64748b', maxWidth: 300, lineHeight: 1.6 }}>
-            Plataforma integral de Digital Signage & Audio para empresas modernas.
+            Plataforma de Digital Signage & Audio para empresas modernas.
           </p>
         </div>
 
@@ -529,7 +529,7 @@ function Footer() {
 
       <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: 20, textAlign: 'center' }}>
         <p style={{ fontSize: 12, color: '#475569' }}>
-          © {new Date().getFullYear()} Integral Signage. Todos los derechos reservados.
+          © {new Date().getFullYear()} Kastio. Todos los derechos reservados.
         </p>
       </div>
     </footer>

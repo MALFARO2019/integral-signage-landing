@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Términos de Servicio — Integral Signage',
-  description: 'Términos y condiciones de uso de la plataforma Integral Signage.',
+  title: 'Términos de Servicio — Kastio',
+  description: 'Términos y condiciones de uso de la plataforma Kastio.',
   robots: { index: true, follow: true },
 };
 
-const SITE_URL = 'https://integralsignage.io';
-const CONTACT_EMAIL = 'ventas@integralsignage.io';
+const SITE_URL = 'https://kastio.io';
+const CONTACT_EMAIL = 'ventas@kastio.io';
 const LAST_UPDATED = '28 de marzo de 2026';
 
 export default function TerminosPage() {
@@ -22,7 +22,7 @@ export default function TerminosPage() {
       {/* Nav */}
       <nav style={{ padding: '16px 40px', borderBottom: '1px solid rgba(99,102,241,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-          <img src="/integral-logo.png" alt="Integral Signage" style={{ height: 52, width: 'auto' }} />
+          <img src="/kastio-logo.svg" alt="Kastio" style={{ height: 44, width: 'auto' }} />
         </a>
         <a href="/" style={{ fontSize: 14, color: '#94a3b8', textDecoration: 'none' }}>← Volver al inicio</a>
       </nav>
@@ -39,7 +39,7 @@ export default function TerminosPage() {
         <div style={section}>
           <h2 style={h2}>1. Aceptación de los términos</h2>
           <p style={p}>
-            Al registrarte o usar la plataforma Integral Signage ({SITE_URL}), aceptás estos Términos de Servicio
+            Al registrarte o usar la plataforma Kastio ({SITE_URL}), aceptás estos Términos de Servicio
             en su totalidad. Si no estás de acuerdo, no uses el servicio.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function TerminosPage() {
         <div style={section}>
           <h2 style={h2}>2. Descripción del servicio</h2>
           <p style={p}>
-            Integral Signage es una plataforma SaaS de señalización digital y audio ambiental que permite gestionar
+            Kastio es una plataforma SaaS de señalización digital y audio ambiental que permite gestionar
             pantallas, contenido multimedia y audio en establecimientos comerciales. El servicio incluye:
           </p>
           <ul style={ul}>
@@ -122,7 +122,7 @@ export default function TerminosPage() {
         <div style={section}>
           <h2 style={h2}>8. Limitación de responsabilidad</h2>
           <p style={p}>
-            En la máxima medida permitida por la ley, Integral Signage no será responsable por daños indirectos,
+            En la máxima medida permitida por la ley, Kastio no será responsable por daños indirectos,
             incidentales, especiales o consecuentes derivados del uso o imposibilidad de uso del servicio.
             Nuestra responsabilidad máxima estará limitada al monto pagado por el usuario en los últimos 3 meses.
           </p>
@@ -131,7 +131,7 @@ export default function TerminosPage() {
         <div style={section}>
           <h2 style={h2}>9. Propiedad intelectual</h2>
           <p style={p}>
-            La plataforma, su código fuente, diseño, marcas y documentación son propiedad exclusiva de Integral Signage
+            La plataforma, su código fuente, diseño, marcas y documentación son propiedad exclusiva de Kastio
             y están protegidos por derechos de autor. No se te otorga ninguna licencia sobre ellos más allá del uso
             normal del servicio.
           </p>
@@ -167,7 +167,7 @@ export default function TerminosPage() {
       {/* Footer */}
       <footer style={{ borderTop: '1px solid rgba(99,102,241,0.12)', padding: '24px 40px', textAlign: 'center' }}>
         <p style={{ fontSize: 13, color: '#475569' }}>
-          © {new Date().getFullYear()} Integral Signage.{' '}
+          © {new Date().getFullYear()} Kastio.{' '}
           <a href="/privacidad" style={{ color: '#6366f1', textDecoration: 'none' }}>Privacidad</a>{' · '}
           <a href="/terminos" style={{ color: '#6366f1', textDecoration: 'none' }}>Términos</a>
         </p>

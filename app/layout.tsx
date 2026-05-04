@@ -6,30 +6,28 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.integralsignage.io';
-const SITE_URL = 'https://integralsignage.io';
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.kastio.io';
+const SITE_URL = 'https://kastio.io';
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Integral Signage — Digital Signage & Audio para Empresas",
-  description: "Plataforma integral de señalización digital y audio ambiental. Administra pantallas, música y contenido desde una sola plataforma. Gratis para empezar.",
+  title: "Kastio — Digital Signage & Audio para Empresas",
+  description: "Plataforma de señalización digital y audio ambiental. Administra pantallas, música y contenido desde una sola plataforma. Gratis para empezar.",
   keywords: "digital signage, señalización digital, audio ambiental, pantallas, restaurantes, retail, contenido digital, gestión de pantallas",
-  authors: [{ name: "Integral Signage" }],
+  authors: [{ name: "Kastio" }],
   openGraph: {
-    title: "Integral Signage — Digital Signage & Audio",
-    description: "La plataforma integral para gestionar pantallas y audio en tu negocio. 14 días gratis.",
+    title: "Kastio — Digital Signage & Audio",
+    description: "La plataforma para gestionar pantallas y audio en tu negocio. 14 días gratis.",
     type: "website",
     locale: "es_CR",
     url: SITE_URL,
-    siteName: "Integral Signage",
-    images: [{ url: '/integral-logo.png', width: 1200, height: 630, alt: 'Integral Signage Dashboard' }],
+    siteName: "Kastio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Integral Signage — Digital Signage & Audio",
-    description: "La plataforma integral para gestionar pantallas y audio en tu negocio.",
-    images: ['/integral-logo.png'],
+    title: "Kastio — Digital Signage & Audio",
+    description: "La plataforma para gestionar pantallas y audio en tu negocio.",
   },
   robots: { index: true, follow: true },
   alternates: { canonical: SITE_URL },
@@ -38,10 +36,10 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
-  name: 'Integral Signage',
+  name: 'Kastio',
   applicationCategory: 'BusinessApplication',
   operatingSystem: 'Android, Windows, Web',
-  description: 'Plataforma integral de señalización digital y audio ambiental para empresas.',
+  description: 'Plataforma de señalización digital y audio ambiental para empresas.',
   url: SITE_URL,
   offers: {
     '@type': 'AggregateOffer',
@@ -51,9 +49,9 @@ const jsonLd = {
   },
   provider: {
     '@type': 'Organization',
-    name: 'Integral Signage',
+    name: 'Kastio',
     url: SITE_URL,
-    contactPoint: { '@type': 'ContactPoint', email: 'ventas@integralsignage.io', contactType: 'sales' },
+    contactPoint: { '@type': 'ContactPoint', email: 'ventas@kastio.io', contactType: 'sales' },
   },
 };
 
