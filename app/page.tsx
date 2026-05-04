@@ -73,14 +73,14 @@ function Navbar() {
   return (
     <nav className="glass" style={{
       position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100,
-      padding: '14px 40px',
+      padding: '18px 40px',
       display: 'flex', justifyContent: 'space-between', alignItems: 'center',
     }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img
           src="/integral-logo.png"
           alt="Integral Signage Logo"
-          style={{ height: 64, width: 'auto', objectFit: 'contain', marginLeft: -12 }}
+          style={{ height: 110, width: 'auto', objectFit: 'contain', marginLeft: -8 }}
         />
       </div>
 
